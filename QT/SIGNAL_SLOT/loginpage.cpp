@@ -6,7 +6,7 @@ LoginPage::LoginPage(QWidget *parent) : QWidget(parent),
     usrselect(this),
     loginBtn(this)
 {
-       pwdLineEdit.setParent(this);
+   pwdLineEdit.setParent(this);
 }
 
 void LoginPage::init()
